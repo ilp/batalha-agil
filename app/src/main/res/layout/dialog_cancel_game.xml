@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:text="@string/cancel_mensage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancelar_game"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="@string/btn_cancel"/>
+        <Button
+            android:id="@+id/btn_quit"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="@string/btn_desistir"/>
+    </LinearLayout>
+
+</LinearLayout>

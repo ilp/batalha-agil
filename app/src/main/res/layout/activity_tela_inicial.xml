@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="batalhaagil.ufrpe.iversonluis.batalhaagil.TelaInicial"
+    android:background="@color/colorBackgroundInicial">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center" />
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_inicial"
+            android:background="@color/colorTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="lollipop"></android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#443395ff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logostart"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/navio1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/navio1"
+                android:layout_marginRight="70dp"/>
+            <TextView
+                android:id="@+id/btnIniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_iniciar"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:id="@+id/navio2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/navio2"
+                android:layout_marginLeft="70dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/navio3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/navio3"
+                android:layout_marginRight="70dp"/>
+            <ImageView
+                android:id="@+id/navio4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/navio5"/>
+            <ImageView
+                android:id="@+id/navio5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:src="@drawable/navio4"
+                android:layout_marginLeft="70dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

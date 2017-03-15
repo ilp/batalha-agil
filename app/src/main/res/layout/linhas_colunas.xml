@@ -1,0 +1,8 @@
+<TextView android:id="@+id/colunas_linhas_txt"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:gravity="center|center_vertical"
+    android:textSize="18dp"
+    android:textColor="@color/cardview_dark_background"
+    android:textStyle="bold"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

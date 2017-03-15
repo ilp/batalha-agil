@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tela_batalha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="batalhaagil.ufrpe.iversonluis.batalhaagil.TelaBatalha">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:src="@drawable/logostart"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="100dp"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_tema"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorWhite"
+                            android:text="Tema\nALEATORIO"/>
+
+                        <TextView
+                            android:id="@+id/text_pontuacao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textColor="@color/colorWhite"
+                            android:text="Pontuaçao: "/>
+
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:id="@+id/btn_cancelar"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_cancel"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <FrameLayout
+                android:id="@+id/frame_layout_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/battle3"
+                android:orientation="horizontal">
+
+                <GridView
+                    android:id="@+id/gridviewLinhas"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:numColumns="1"></GridView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <FrameLayout
+                        android:id="@+id/frame_layout_animation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <GridLayout
+                            android:id="@+id/gridMapSelf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background_grid_original"
+                            android:rowCount="10"
+                            android:columnCount="10">
+                        </GridLayout>
+                    </FrameLayout>
+
+                    <GridView
+                        android:id="@+id/gridviewColunas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:numColumns="10"></GridView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_vez_player"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_width="110dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="100dp"
+                    android:src="@drawable/vez_jogador" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <FrameLayout
+                        android:id="@+id/frame_principal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:id="@+id/gif_radar"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <GridLayout
+                            android:id="@+id/gridMapOpponent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background_grid_original"
+                            android:rowCount="10"
+                            android:columnCount="10">
+                        </GridLayout>
+
+                    </FrameLayout>
+
+                    <GridView
+                        android:id="@+id/gridviewColunas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:numColumns="10"></GridView>
+                </LinearLayout>
+                <GridView
+                    android:id="@+id/gridviewLinhas2"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:numColumns="1"></GridView>
+            </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_airplane"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_airplane"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <include
+        layout="@layout/custom_vertical_dropdown_menu_arsenal"></include>
+
+
+</RelativeLayout>

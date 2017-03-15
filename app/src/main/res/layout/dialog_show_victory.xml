@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="0dp"
+        android:elevation="6dp">
+
+            <LinearLayout
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_resume"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:text="PARABÉNS"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:paddingTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="PONTUAÇÃO"/>
+
+                <TextView
+                    android:id="@+id/txt_pont_barcos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:text="Pontuação dos barcos: 200"/>
+
+                <TextView
+                    android:id="@+id/txt_pont_resumos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:text="Resumos aprendidos: 200"/>
+
+                <TextView
+                    android:id="@+id/txt_pont_erros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:text="Bombas erradas: -200"/>
+
+                <TextView
+                    android:id="@+id/txt_pont_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/bg_screen3"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:text="TOTAL: 200"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btn_ok_victory"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"
+                        android:text="OK"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

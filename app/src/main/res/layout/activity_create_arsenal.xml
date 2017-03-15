@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_create_mapa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:components="http://schemas.android.com/apk/res-auto"
+    tools:context="batalhaagil.ufrpe.iversonluis.batalhaagil.CreateArsenal">
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="0dp"
+            android:elevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title_create_arsenal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    android:textSize="28dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:text="@string/title_arsenal"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true">
+                        <Button
+                            android:id="@+id/btn_go_battle"
+                            android:background="@color/colorPrimary"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:text="@string/btn_next"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/battle3"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/gridviewLinhas"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:numColumns="1"></GridView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+               <!-- <GridView
+                    android:id="@+id/gridMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numColumns="10"
+                    android:background="@drawable/background_grid"/>-->
+                <GridLayout
+                    android:id="@+id/gridMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_grid_original"
+                    android:rowCount="10"
+                    android:columnCount="10">
+                </GridLayout>
+
+                <GridView
+                    android:id="@+id/gridviewColunas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:numColumns="10"></GridView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="110dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp"
+                android:src="@drawable/vez_p1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!--<GridView
+                    android:id="@+id/gridShips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numColumns="10"
+                    android:background="@color/colorWhite"/>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/arsenal_airplan"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_airplane"/>
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/arsenal_radar"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_radar"/>
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:id="@+id/arsenal_missil"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_torpedo"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_avisos"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aviso_clicar_arsenal"
+                        android:textStyle="bold"
+                        android:textColor="#610B0B"/>
+
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gridviewColunas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:numColumns="10"></GridView>
+            </LinearLayout>
+            <GridView
+                android:id="@+id/gridviewLinhas2"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:numColumns="1"></GridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

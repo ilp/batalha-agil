@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Batalha Ágil</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">Sobre</string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="btn_procurar">Batalha Bluetooth</string>
+    <string name="btn_procurar_web">Batalha Online</string>
+    <string name="btn_single_player">Batalha vs Android</string>
+    <string name="btn_show_arsenal">Arsenal</string>
+    <string name="title_create_map">Posicione seus Navios</string>
+    <string name="tema">Selecione um tema para a batalha</string>
+    <string name="select_tema">Selecionar Tema</string>
+    <string name="cancel_mensage">Se você desistir seu adversário sairá vitorioso!</string>
+    <string name="cancel_title">Deseja finalizar a batalha?</string>
+    <string name="remove_title">Deseja remover?</string>
+    <string name="title_arsenal">Monte seu Arsenal</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_desistir">Desistir</string>
+    <string name="btn_apagar">Yes</string>
+    <string name="btn_auto">Auto</string>
+    <string name="btn_learn">Entendi</string>
+    <string name="btn_next">Próximo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_bluetooth">Escolha seu oponente</string>
+    <string name="btn_search_name">Procurar</string>
+    <string name="bluetooth_off">Bluetooth desativado</string>
+    <string name="bluetooth_off_text">Deseja ativá-lo?</string>
+    <string name="bluetooth_search">Dispositivos</string>
+    <string name="bluetooth_error">Ocorreu um erro durante a conexão!</string>
+    <string name="bluetooth_success">Conectado com sucesso!</string>
+
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">COMEÇAR</string>
+
+    <string name="slide_1_title">Aprenda Metodologias Ágeis!</string>
+    <string name="slide_1_desc">Você irá aprender Métodos Ágeis com Batalha Naval!</string>
+
+    <string name="slide_2_title">SCRUM</string>
+    <string name="slide_2_desc">Uma ferramenta que permite controlar de forma eficaz e eficiente o trabalho, potencializando as equipes que trabalham em prol de um objetivo em comum.</string>
+
+    <string name="slide_3_title">eXtreme Programming</string>
+    <string name="slide_3_desc">Incentiva o controle da qualidade como variável do projeto, pois o pequeno ganho de curto prazo na produtividade, ao diminuir qualidade, não é compensado por perdas a médio e longo prazo.</string>
+
+    <string name="slide_4_title">LEAN</string>
+    <string name="slide_4_desc">Seu  foco é cortar a \"gordura\" do processo de software, focando na eliminação de desperdícios.</string>
+
+    <string name="aviso_clicar_arsenal">Toque no arsenal depois na posição do mapa</string>
+    <string name="aviso_select_arsenal">Agora selecione a posição no mapa</string>
+    <string name="aviso_clicar_arsenal_airplane">Escolha a linha para realizar o ataque aéreo</string>
+    <string name="aviso_clicar_arsenal_missil">Escolha a posição para jogar o míssil</string>
+    <string name="aviso_clicar_arsenal_radar">Escolha a posição para ativar o radar</string>
+
+
+
+    <string name="txt_sobre">Desenvolvido por:\nCarlos Magnum e Iverson Pereira\n Desenvolvimento de Aplicações Móveis\n Vanilson Buregio\n</string>
+
+</resources>
+

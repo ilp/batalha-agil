@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temas_array">
+        <item>ALEATÓRIO</item>
+        <item>LEAN</item>
+        <item>SCRUM</item>
+        <item>XP</item>
+    </string-array>
+</resources>

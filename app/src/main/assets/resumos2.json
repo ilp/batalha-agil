@@ -1,0 +1,274 @@
+{
+	"Agile" :[
+		{
+			"Title" :"Desenvolvimento ágil de software",
+			"Resume":"Método ágil é um conjunto de metodologias de desenvolvimento de software. O desenvolvimento ágil, tal como qualquer metodologia de software, providencia uma estrutura conceitual para reger projetos de engenharia de software."  	
+		},
+		{
+			"Title" :"Valores",
+			"Resume":"Indivíduos e interações mais que processos e ferramentas; Software funcional mais que documentação abrangente; Colaboração do cliente mais que negociação de contratos; Responder a mudanças mais que seguir um plano"	
+		},
+		{
+			"Title" :"Agregar valor",
+			"Resume":"Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado."	
+		},
+		{
+			"Title" :"Requisitos Mudam",
+			"Resume":"Mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento. Processos ágeis tiram vantagem das mudanças visando vantagem competitiva para o cliente."	
+		},
+		{
+			"Title" :"Entregas Constantes",
+			"Resume":"Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo."	
+		},
+		{
+			"Title" :"Clientes fazem parte da equipes.",
+			"Resume":"Pessoas de negócio e desenvolvedores devem trabalhar diariamente em conjunto por todo o projeto."	
+		},
+		{
+			"Title" :"Ambiente Motivado",
+			"Resume":"Construa projetos em torno de indivíduos motivados. Dê a eles o ambiente e o suporte necessário e confie neles para fazer o trabalho."	
+		},
+		{
+			"Title" :"Comunicação direta",
+			"Resume":"O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é através de conversa face a face."	
+		},
+		{
+			"Title" :"Funcionalidade mede progresso",
+			"Resume":"Software funcionando é a medida primária de progresso."	
+		},
+		{
+			"Title" :"Ritmo constante",
+			"Resume":"Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente."	
+		},
+		{
+			"Title" :"Qualidade",
+			"Resume":"Contínua atenção à excelência técnica e bom design aumenta a agilidade."	
+		},
+		{
+			"Title" :"Faça apenas o necessário",
+			"Resume":"Simplicidade a arte de maximizar a quantidade de trabalho não realizado é essencial."	
+		},
+		{
+			"Title" :"Times auto-organizáveis",
+			"Resume":"As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizáveis."	
+		},
+		{
+			"Title" :"Melhoria constante",
+			"Resume":"Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento de acordo."	
+		}
+	],
+	"Scrum":[
+		{
+			"Title" :"Scrum",
+			"Resume":"Scrum é uma metodologia ágil para gestão e planejamento de projetos de software. No Scrum, os projetos são divididos em ciclos (tipicamente mensais) chamados de Sprints. O Sprint representa um Time Box dentro do qual um conjunto de atividades deve ser executado."	
+		},
+		{
+			"Title" :"Transparência",
+			"Resume":"Aspectos significativos do processo devem estar visíveis aos responsáveis pelos resultados. Esta transparência requer aspectos definidos por um padrão comum para que os observadores compartilharem um mesmo entendimento do que está sendo visto."	
+		},
+		{
+			"Title" :"Inspeção",
+			"Resume":"Os usuários Scrum devem, frequentemente, inspecionar os artefatos Scrum e o progresso em direção a detectar variações. Esta inspeção não deve, no entanto, ser tão frequente que atrapalhe a própria execução das tarefas. As inspeções são mais benéficas quando realizadas de forma diligente por inspetores especializados no trabalho a se verificar. "	
+		},
+		{
+			"Title" :"Adaptação",
+			"Resume":"Se um inspetor determina que um ou mais aspectos de um processo desviou para fora dos limites aceitáveis, e que o produto resultado será inaceitável, o processo ou o material sendo produzido deve ser ajustado. O ajuste deve ser realizado o mais breve possível para minimizar mais desvios."	
+		},
+		{
+			"Title" :"Sprint",
+			"Resume":"Uma sprint é a unidade básica de desenvolvimento em Scrum. Sprints tendem a durar entre uma semana e um mês, e são um esforço dentro de uma faixa de tempo (ou seja, restrito a uma duração específica) de comprimento constante."	
+		},
+		{
+			"Title" :"Sprint",
+			"Resume":"Cada sprint é precedido por uma reunião de planejamento (Sprint Planning), onde as tarefas para a sprint são identificadas e um compromisso estimado para o objetivo da sprint é definido e seguido por uma reunião de revisão ou de retrospectiva, onde o progresso é revisto e lições para os próximos sprints são identificadas."
+		},
+		{
+			"Title" :"Sprint",
+			"Resume":"Durante cada sprint, a equipe cria um incremento de produto potencialmente entregável (por exemplo, software funcional e testado). O conjunto de funcionalidades que entram em um sprint vêm do Product Backlog, que é um conjunto de prioridades de requisitos de alto nível definidos pelo Product Owner."	
+		},
+		{
+			"Title" :"Product Owner (dono do produto)",
+			"Resume":"O Product Owner representa a voz do cliente e é responsável por garantir que a equipe agregue valor ao negócio. O Product Owner escreve centrado nos itens do cliente (histórias tipicamente do usuário), os prioriza e os adiciona para o product backlog. Recomenda-se que este papel não seja combinado com o de ScrumMaster."	
+		},
+		{
+			"Title" :"Equipe de Desenvolvimento (Development Team)",
+			"Resume":"A equipe de desenvolvimento é responsável pela entrega do produto. A equipe é tipicamente composta de 5-9 pessoas com habilidades multifuncionais que fazem o trabalho real (analisar, projetar, desenvolver, testar técnicas de comunicação, documentos, etc.) Recomenda-se que a equipe seja auto-organizada e auto-conduzida, mas que muitas vezes trabalhem com alguma forma de projeto ou gestão de equipe."	
+		},
+		{
+			"Title" :"Scrum Master",
+			"Resume":"Scrum é facilitado por um Scrum Master, que é responsável pela remoção de impedimentos à capacidade da equipe para entregar o objetivo da sprint / entregas. O Scrum Master não é o líder da equipe, mas age como um tampão entre a equipe e qualquer influência ou distração. O Scrum Master garante que o processo Scrum seja usado como pretendido. "	
+		},
+		{
+			"Title" :"Backlog",
+			"Resume":"Um backlog é uma lista de itens priorizados a serem desenvolvidos para um software. Este artefato é a principal fonte de informação para o Planejamento de sprint (Sprint Planning). No decorrer da sprint, o Product Owner, o Scrum Master e a Equipe decidem no que a equipe irá trabalhar."	
+		},
+		{
+			"Title" :"Product Backlog",
+			"Resume":"O Product Backlog é mantido pelo Product Owner e é uma lista de requisitos que tipicamente vêm do cliente. O Product Backlog pode ser alterado a qualquer momento pelo Product Owner ou por decisão deste."	
+		},
+		{
+			"Title" :"Sprint Backlog",
+			"Resume":"O Sprint Backlog é uma lista de itens selecionados do Product backlog e contém tarefas concretas que serão realizadas durante a próxima sprint para implementar tais itens selecionados. O Sprint Backlog é uma representação em tempo real do trabalho que o Development Team planeja concluir na sprint corrente, e ele pertence unicamente ao Development Team."	
+		},
+		{
+			"Title" :"Daily Scrum Meeting",
+			"Resume":"Cada dia durante a sprint, uma reunião de status do projeto ocorre. Isso é chamado de 'scrum diário', ou 'de pé o dia'. Esta reunião tem diretrizes específicas"	
+		},
+		{
+			"Title" :"Daily Scrum Meeting",
+			"Resume":"A reunião começa precisamente no horário marcado; Todos são bem-vindos, mas apenas 'poucos' podem falar; O encontro tem duração determinada (Time-Box) e dura no máximo 15 minutos; A reunião deve acontecer no mesmo local e mesma hora todos os dias."	
+		},
+		{
+			"Title" :"Reunião de Planejamento da Sprint (Sprint Planning Meeting)",
+			"Resume":"No início do ciclo de sprint (a cada 7-30 dias), um Sprint Planning Meeting é realizado."	
+		},
+		{
+			"Title" :"Reunião de Planejamento da Sprint (Sprint Planning Meeting)",
+			"Resume":"Selecione o trabalho que está a ser feito; Prepare o Sprint Backlog que detalha o tempo que levará para fazer esse trabalho, com toda a equipe; Identificar e comunicar o quanto o trabalho é susceptível de ser feito durante a sprint atual"	
+		},
+		{
+			"Title" :"Reunião de Planejamento da Sprint (Sprint Planning Meeting)",
+			"Resume":"Dividida em duas partes: Parte 1 (Primeiras quatro horas): Team Product Owner: diálogo para priorizar o Product Backlog; Parte 2 (Próximas quatro horas): Team apenas: hash de um plano para a Sprint, resultando na Sprint Backlog."	
+		},
+		{
+			"Title" :"Reunião de Revisão da Sprint (Sprint Review)",
+			"Resume":"Rever o trabalho que foi concluído e não concluído. Apresentar o trabalho realizado para os stakeholders (ou 'a demo'). Um trabalho incompleto não pode ser demonstrado."	
+		},
+		{
+			"Title" :"Retrospectiva da Sprint (Sprint Retrospective)",
+			"Resume":"Todos os membros da equipe refletem sobre a sprint passada. Faça melhorias contínuas de processos. Duas questões principais são feitas na retrospectiva da sprint: O que correu bem durante a corrida? O que poderia ser melhorado na próxima sprint?"	
+		}
+	],
+	"XP":[
+		{
+			"Title" :"Extreme Programming XP",
+			"Resume":"XP é leve, XP é focado no desenvolvimento de software, XP funciona em times de qualquer tamanho e XP se adapta à requisitos vagos e que mudam rapidamente"	
+		},
+		{
+			"Title" :"Extreme Programming XP",
+			"Resume":"XP foi bem sucedido, pois tenta elevar ao máximo a satisfação do cliente. Ao invés de entregar muitas funcionalidades que podem ou não serem usadas, ele foca na entrega do que o cliente quer, do jeito que ele quer."	
+		},
+		{
+			"Title" :"Extreme Programming XP",
+			"Resume":"XP empodera os desenvolvedores do time, dando confiança para que eles respondam as mudanças de requisitos do projeto, mesmo que isso acontece tardiamento no processo."	
+		},
+		{
+			"Title" :"Extreme Programming XP",
+			"Resume":"XP enfatiza o trabalho em equipe, clientes, gerentes e desenvolvedores são partes de mesma importancias em um time colaborativo"	
+		},
+		{
+			"Title" :"Extreme Programming XP",
+			"Resume":"XP implementa um simples e efetivo ambiente que possibilita aos temas serem altamente produtivos. Os times se auto organizam em volta dos problemas para resolve-los eficientemente."	
+		},
+		{
+			"Title" :"Simplicidade",
+			"Resume":"Faça o que é preciso e o que foi pedido, nada mais.  Isto irá maximizar o valor criado para o investimento feito até à data. Tomaremos pequenos passos simples para nossa meta e mitigaremos as falhas à medida que elas acontecem. Vamos criar algo que estamos orgulhosos e mantê-lo a longo prazo com custos razoáveis."	
+		},
+		{
+			"Title" :"Comunicação",
+			"Resume":"Todo mundo faz parte da equipe e nós nos comunicamos cara a cara diariamente. Trabalharemos juntos em tudo, desde requisitos até códigos. Vamos criar a melhor solução que podemos para o nosso problema juntos."	
+		},
+		{
+			"Title" :"Feedback",
+			"Resume":"Levaremos todos os compromissos de iteração seriamente produzindo software funcional. Demonstramos o nosso software cedo e muitas vezes, em seguida, ouvimos atentamente e fazemos as alterações necessárias. Vamos falar sobre o projeto e adaptar o nosso processo para ele, e não o contrário."	
+		},
+		{
+			"Title" :"Respeito",
+			"Resume":"Todos dão e sentem o respeito que merecem como um membro da equipe. Todo mundo contribui para o valor, mesmo que seja simplesmente com entusiasmo. Os desenvolvedores respeitam a experiência dos clientes e vice-versa. A administração respeita nosso direito de aceitar responsabilidade e receber autoridade sobre nosso próprio trabalho."	
+		},
+		{
+			"Title" :"Coragem",
+			"Resume":"Vamos dizer a verdade sobre o progresso e as estimativas. Nós não documentamos desculpas para o fracasso, porque planejamos ter sucesso. Não tememos nada, porque ninguém trabalha sozinho. Vamos nos adaptar às mudanças sempre que acontecem."	
+		},
+		{
+			"Title" :"Jogo de Planejamento",
+			"Resume":"O desenvolvimento é feito em iterações semanais. No início da semana, desenvolvedores e cliente reúnem-se para priorizar as funcionalidades. Essa reunião recebe o nome de Jogo do Planejamento. Nela, o cliente identifica prioridades e os desenvolvedores as estimam."	
+		},
+		{
+			"Title" :"Jogo de Planejamento",
+			"Resume":"O cliente é essencial neste processo e assim ele fica sabendo o que está acontecendo e o que vai acontecer no projeto. Como o escopo é reavaliado semanalmente, o projeto é regido por um contrato de escopo negociável, que difere significativamente das formas tradicionais de contratação de projetos de software. Ao final de cada semana, o cliente recebe novas funcionalidades, completamente testadas e prontas para serem postas em produção."	
+		},
+		{
+			"Title" :"Fases pequenas (Small Releases)",
+			"Resume":"A liberação de pequenas versões funcionais do projeto auxilia muito no processo de aceitação por parte do cliente, que já pode testar uma parte do sistema que está comprando. As versões chegam a ser ainda menores que as produzidas por outras metodologias incrementais, como o RUP."	
+		},
+		{
+			"Title" :"Metáfora",
+			"Resume":"Procura facilitar a comunicação com o cliente, entendendo a realidade dele. O conceito de rápido para um cliente de um sistema jurídico é diferente para um programador experiente em controlar comunicação em sistemas em tempo real, como controle de tráfego aéreo. É preciso traduzir as palavras do cliente para o significado que ele espera dentro do projeto."	
+		},
+		{
+			"Title" :"Design Simples (Simple Design)",
+			"Resume":"Simplicidade é um princípio da XP. Projeto simples significa dizer que caso o cliente tenha pedido que na primeira versão apenas o usuário 'teste' possa entrar no sistema com a senha 123 e assim ter acesso a todo o sistema, você vai fazer o código exato para que esta funcionalidade seja implementada, sem se preocupar com sistemas de autenticação e restrições de acesso."
+		},
+		{
+			"Title" :"Design Simples (Simple Design)",
+			"Resume":"Um erro comum ao adotar essa prática é a confusão por parte dos programadores de código simples e código fácil. Nem sempre o código mais fácil de ser desenvolvido levará a solução mais simples por parte de projeto. Esse entendimento é fundamental para o bom andamento do XP. Código fácil deve ser identificado e substituído por código simples."	
+		},
+		{
+			"Title" :"Time Coeso",
+			"Resume":"A equipe de desenvolvimento é formada por pessoas engajadas e de forma multidisciplinar (no sentido de incluir pessoas com cada uma das habilidades necessárias para o projeto)."	
+		},
+		{
+			"Title" :"Testes de Aceitação",
+			"Resume":"São testes construídos pelo cliente e conjunto de analistas e testadores, para aceitar um determinado requisito do sistema."	
+		},
+		{
+			"Title" :"Programação Pareada (Pair Programming)",
+			"Resume":"Programação em par/dupla num único computador. Geralmente a dupla é formada por um iniciante na linguagem e outra pessoa funcionando como um instrutor. Como é apenas um computador, o novato é que fica à frente fazendo a codificação, e o instrutor acompanha ajudando a desenvolver suas habilidades. Desta forma o programa sempre é revisto por duas pessoas, evitando e diminuindo assim a possibilidade de defeitos. Com isto busca-se sempre a evolução da equipe, melhorando a qualidade do código fonte gerado."	
+		},
+		{
+			"Title" :"Padronização do Código",
+			"Resume":"A equipe de desenvolvimento precisa estabelecer regras para programar e todos devem seguir estas regras. Desta forma parecerá que todo o código fonte foi editado pela mesma pessoa, mesmo quando a equipe possui 10 ou 100 membros."
+		},
+		{
+			"Title" :"Desenvolvimento Orientado a Testes",
+			"Resume":"Primeiro crie os testes unitários (unit tests) e depois crie o código para que os testes funcionem. Esta abordagem é complexa no início, pois vai contra o processo de desenvolvimento de muitos anos. Só que os testes unitários são essenciais para que a qualidade do projeto seja mantida."	
+		},
+		{
+			"Title" :"Refatoração",
+			"Resume":"É um processo que permite a melhoria continua da programação, com o mínimo de introdução de erros e mantendo a compatibilidade com o código já existente. Refatorar melhora a clareza (leitura) do código, divide-o em módulos mais coesos e de maior reaproveitamento, evitando a duplicação de código-fonte."	
+		},
+		{
+			"Title" :"Integração Contínua",
+			"Resume":"Sempre que produzir uma nova funcionalidade, nunca esperar uma semana para integrar à versão atual do sistema. Isto só aumenta a possibilidade de conflitos e a possibilidade de erros no código fonte. Integrar de forma contínua permite saber o status real da programação."	
+		}
+	],	
+	"Lean":[
+		{
+			"Title" :"Lean",
+			"Resume":"Trata-se de um corpo de conhecimento cuja essência é a capacidade de eliminar desperdícios continuamente e resolver problemas de maneira sistemática. Isso implica repensar a maneira como se lidera, gerencia e desenvolve pessoas. É através do pleno engajamento das pessoas envolvidas com o trabalho que se consegue vislumbrar oportunidades de melhoria e ganhos sustentáveis."	
+		},
+		{
+			"Title" :"Eliminar desperdícios",
+			"Resume":"Desperdícios: tudo aquilo que não agrega valor para cliente final e que não são percebidos pelo cliente. Exemplo: passos extras, processo pesado e rígido, burocracia, documentação que nunca vai ser lida, que está na prateleira juntando poeira - não necessária, etc. Outro tipo de desperdício são trabalhos parcialmente prontos, tudo que começa e não termina, funcionalidades extras que não serão utilizadas, etc."	
+		},
+		{
+			"Title" :"Qualidade embutida",
+			"Resume":"Qualidade é inegociável. Entregue qualidade intrínseca e explícita aos seus clientes, se eles perceberem isso, significa que foi uma entrega de qualidade. Mary e Tom Poppendieck em seu livro identificaram duas dimensões de integridade: integridade percebida e integridade conceitual."	
+		},
+		{
+			"Title" :"Qualidade embutida",
+			"Resume":"A integridade percebida significa que a totalidade do produto alcança um equilíbrio entre as funções, usabilidade, confiabilidade, economia e isso encanta o cliente. A integridade conceitual significa que os conceitos centrais do sistema de trabalho em conjunto são facilitados e coesos. Essa última é fator crítico de sucesso para a integridade percebida."	
+		},
+		{
+			"Title" :"Criar conhecimentos",
+			"Resume":"Desenvolvimento é um exercício de descoberta, enquanto produção é um exercício de reduzir a variação. Desenvolvimento é como fazer uma nova receita, enquanto produção é como fazer um prato. Receitas são formuladas por chefes de cozinha experientes que de certa forma desenvolveram habilidades e capacidade de combinar os ingredientes disponíveis para produzir o prato desejado."	
+		},
+		{
+			"Title" :"Adiar decisões / Compromissos",
+			"Resume":"O principal conceito deste princípio é diminuir as incertezas retardando as decisões até que possam serem feitas com base em acontecimentos mais firmes, previsíveis e conhecidos. Decisões tardias tendem a ser mais acertadas porque as melhores decisões são feitas baseadas em fatos, e não em suposições ou especulações. Uma estratégia chave para adiar decisões/comprometimentos quando desenvolvendo um sistema complexo e com muitas incertas é usar a capacidade e práticas que permitam abraçar as mudanças tardiamente."	
+		},
+		{
+			"Title" :"Entregar Rápido",
+			"Resume":"Sem entregas rápidas não é possível colher feedback. Sem entregas rápidas não é possível aprender com erros. Velocidade na entrega garante que o cliente receberá o que ele precisa hoje e não o que ele precisava ontem."	
+		},
+		{
+			"Title" :"Respeitar as pessoas",
+			"Resume":"Envolver os desenvolvedores nos detalhes das decisões técnicas é fundamental para o atingimento da excelência."	
+		},
+		{
+			"Title" :"Otimizar o todo",
+			"Resume":"Otimizar desde o começo até o final, utilize Métricas, Diminua o número de métricas de desempenho individual mas valorize o desempenho da equipe, meça para cima."	
+		}
+	]
+}

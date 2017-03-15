@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693719328936",
+    "firebase_url": "https://batalha-agil.firebaseio.com",
+    "project_id": "batalha-agil",
+    "storage_bucket": "batalha-agil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693719328936:android:d15d6dd32f456652",
+        "android_client_info": {
+          "package_name": "batalhaagil.ufrpe.iversonluis.batalhaagil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693719328936-63u6igu9reblicb50j60q5mdnlm8ql77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "batalhaagil.ufrpe.iversonluis.batalhaagil",
+            "certificate_hash": "6464BB9D856605A6009C6570750E92EB17C013F4"
+          }
+        },
+        {
+          "client_id": "693719328936-o1e9tofu05d3gur0q9ifi6mk70v6dcu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdYV97xbWf6sh453xkwOtbYzZTwoomieA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693719328936-o1e9tofu05d3gur0q9ifi6mk70v6dcu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

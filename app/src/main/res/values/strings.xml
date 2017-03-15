@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Agile Battle</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="btn_iniciar">Start</string>
+    <string name="btn_procurar">Bluetooth Battle</string>
+    <string name="btn_procurar_web">Online Battle</string>
+    <string name="btn_single_player">Single Player</string>
+    <string name="tema">Select theme for your opponent</string>
+    <string name="title_arsenal">Create your Arsenal</string>
+    <string name="title_create_map">Arrange your Ships</string>
+    <string name="btn_show_arsenal">Arsenal</string>
+    <string name="select_tema">Select Theme</string>
+    <string name="cancel_mensage">Your opponent will win, if you give up !</string>
+    <string name="cancel_title">Finish battle?</string>
+    <string name="remove_title">Do you want to remove?</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_learn">I Learned</string>
+    <string name="btn_desistir">Quit</string>
+    <string name="btn_apagar">Yes</string>
+    <string name="btn_auto">Auto</string>
+    <string name="btn_next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_bluetooth">Choose your opponent</string>
+    <string name="btn_search_name">Search</string>
+    <string name="bluetooth_off">Bluetooth enable</string>
+    <string name="bluetooth_off_text">Do you want turn on?</string>
+    <string name="bluetooth_search">Devices</string>
+    <string name="bluetooth_error">Error occurred while trying to connect!</string>
+    <string name="bluetooth_success">Connect success!</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Learn Agile Methods!</string>
+    <string name="slide_1_desc">You will to learn Agile Methods with BattleShip!</string>
+
+    <string name="slide_2_title">SCRUM</string>
+    <string name="slide_2_desc">It is amazing!</string>
+
+    <string name="slide_3_title">eXtreme Programming</string>
+    <string name="slide_3_desc">It is amazing!</string>
+
+    <string name="slide_4_title">LEAN</string>
+    <string name="slide_4_desc">It is amazing!</string>
+
+
+    <string name="aviso_clicar_arsenal">Touch the arsenal then in the map position</string>
+    <string name="aviso_select_arsenal">Now select the map position</string>
+    <string name="aviso_clicar_arsenal_airplane">Choose the line to do air attack</string>
+    <string name="aviso_clicar_arsenal_missil">Choose the position to play missile</string>
+    <string name="aviso_clicar_arsenal_radar">Choose the position to active the radar</string>
+
+    <string name="txt_sobre">Desenvolvido por:\n</string>
+
+
+</resources>
